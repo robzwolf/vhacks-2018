@@ -12,11 +12,33 @@ export default class Home extends React.Component {
     render() {
         const categories = this.state.categories;
         return(
-            <h1>
-                {categories.map((category, i) =>
-                    <CategoryIcon title={categories[i]}/>
-                )}
-            </h1>
+            <div class="container">
+                <div class="row">
+                    <div className="col-sm"></div>
+                    <div class="col-sm">
+                        <CategoryIcon title="Health"/>
+                    </div>
+                    <div className="col-sm"></div>
+                </div>
+                <div className='row'>
+                    <div class="col-sm">
+                        <CategoryIcon title= "Education"/>
+                    </div>
+                    <div className="col-sm"></div>
+                    <div class="col-sm">
+                        <CategoryIcon title= "Health"/>
+                    </div>
+                </div>
+                <div className="row">
+                    <div class="col-sm">
+                        <CategoryIcon title= "Education"/>
+                    </div>
+                    <div className="col-sm"></div>
+                    <div class="col-sm">
+                        <CategoryIcon title= "Health"/>
+                    </div>
+                </div>
+                </div>
         )
     }
 }
