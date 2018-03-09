@@ -47,24 +47,18 @@ def generate_random_data(lat, lon, n_samples, n_centers):
     return data, cluster_labels
 
 
-def create_map(json):
-    df = pd.DataFrame(json)
-    df.to_csv("geo.csv")
-
+def create_map(json, center_coords):
     # Loads data from csv into pandas dataframe
-    df = pd.read_csv("geo.csv")
+    df = pd.read_json(json)
     df.head(2)
     print()
 
-    # Stanford coordinates
-    coords = [41.9024565, -122.170214]
-
     # creates an empty map zoomed in Stanford
-    stan_map = folium.Map(location=coords, zoom_start=12)
+    working_map = folium.Map(location=center_coords, zoom_start=12)
 
     # creates a marker cluster called “Crime cluster”
     marker_cluster = FastMarkerCluster(df.iloc[:, 1:].values.tolist()).add_to(
-        stan_map)
+        working_map)
 
     '''
     # add a marker for each event, add it to the cluster, not the map
@@ -73,7 +67,7 @@ def create_map(json):
             marker_cluster)
     '''
 
-    display(stan_map)
+    display(working_map)
     # create HTML interface
     fg = folium.FeatureGroup(name="Active Shooter")
 
@@ -82,15 +76,15 @@ def create_map(json):
     else "orange" if 10000000 < x["properties"]["POP2005"] < 20000000
     else "red"}
 
-    stan_map.add_child(fg)
+    working_map.add_child(fg)
     '''
-    stan_map.add_child(folium.GeoJson(data=open(
+    working_map.add_child(folium.GeoJson(data=open(
         "world_geojson_from_ogr.json", encoding="utf-8-sig").read(),
         name="Population",
         style_function=props))
     '''
-    stan_map.add_child(folium.LayerControl())
-    stan_map.save(outfile="map.html")
+    working_map.add_child(folium.LayerControl())
+    working_map.save(outfile="map.html")
 
 
 @app.route("/")
