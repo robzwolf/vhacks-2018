@@ -6,7 +6,8 @@ export default class Home extends React.Component {
     constructor() {
         super();
         this.state = {
-            categories: ['Health', 'Paperwork', 'Education', 'Language', 'Employment']
+          //should be an API call
+            categories: ['Health', 'Legal', 'Education', 'Language', 'Employment']
         }
     }
 
@@ -17,26 +18,25 @@ export default class Home extends React.Component {
                 <div class="row">
                     <div className="col-sm"></div>
                     <div class="col-sm">
-                        <CategoryIcon title="Health"/>
+                        <CategoryIcon style={{background:'#FF8A5B'}} title="Health"/>
                     </div>
                     <div className="col-sm"></div>
                 </div>
                 <div className="row">
                     <div class="col-sm">
-                        <CategoryIcon title= "Education"/>
+                        <CategoryIcon style={{background:'#EA526F'}} title= "Education"/>
                     </div>
-                    <div className="col-sm"></div>
                     <div class="col-sm">
-                        <CategoryIcon title= "Health"/>
+                        <CategoryIcon style={{background:'#25CED1'}} title= "Health"/>
                     </div>
                 </div>
                 <div className="row" id = "bottom-row">
-                    <div class="col-sm">
-                        <CategoryIcon title= "Education"/>
+                    <div class="col-sm" style={{marginLeft: '75px'}}>
+                        <CategoryIcon style={{background:'#FC9E4F', marginTop: "100px", marginLeft: "100px"}} title= "Education"/>
                     </div>
                     <div className="col-sm"></div>
                     <div class="col-sm">
-                        <CategoryIcon title= "Health"/>
+                        <CategoryIcon style={{background:'#7C0B2B', marginTop: "100px", marginLeft: "10px", marginRight: "190px"}} title= "Health" style={{right: '175px' }}/>
                     </div>
                 </div>
                 </div>
