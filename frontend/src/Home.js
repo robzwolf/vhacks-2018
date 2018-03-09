@@ -52,7 +52,7 @@ export default class Home extends React.Component {
                     <div className="col-sm">
                         <CategoryIcon style={{background:'#FF8A5B'}} title={categories[0]}/>
                     </div>
-                    <div className="col-sm" style={{backgroundColor: 'green'}}></div>
+                    <div className="col-sm"></div>
                 </div>
                 <div className="row" id='row-two'>
                     <div className="col-sm">
