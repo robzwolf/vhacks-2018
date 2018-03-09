@@ -21,8 +21,6 @@ from sklearn.datasets.samples_generator import make_blobs
 
 random.seed(1234)
 sns.set(font_scale=1.5)
-latitude =
-longitude = 12.4551347
 counter = 0
 
 app = Flask(__name__, static_url_path='')
