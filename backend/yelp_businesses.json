@@ -1,0 +1,2341 @@
+{
+    "health": [
+        {
+            "id": "doctors-in-italy-roma",
+            "name": "Doctors in Italy",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/UlckKD-jagdCCR6u9c9WMw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/doctors-in-italy-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 7,
+            "categories": [
+                {
+                    "alias": "internalmed",
+                    "title": "Internal Medicine"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 41.90407,
+                "longitude": 12.48091
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Frattina 48",
+                "address2": null,
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00187",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Frattina 48",
+                    "00187 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39066790695",
+            "display_phone": "+39 06 679 0695",
+            "distance": 2197.998375763506
+        },
+        {
+            "id": "prof-daniela-mango-roma",
+            "name": "Prof. Daniela Mango",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/prof-daniela-mango-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "physicians",
+                    "title": "Doctors"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.91872,
+                "longitude": 12.4399
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Attilio Friggeri 103",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00136",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Attilio Friggeri 103",
+                    "00136 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390635453961",
+            "display_phone": "+39 06 3545 3961",
+            "distance": 2150.47325169833
+        },
+        {
+            "id": "studio-medico-brofferio-roma",
+            "name": "Studio Medico Brofferio",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/studio-medico-brofferio-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "dermatology",
+                    "title": "Dermatologists"
+                },
+                {
+                    "alias": "medcenters",
+                    "title": "Medical Centers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.9067999,
+                "longitude": 12.46875
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Cicerone, 44",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00193",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Cicerone, 44",
+                    "00193 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39063722310",
+            "display_phone": "+39 06 372 2310",
+            "distance": 1263.2555117112959
+        },
+        {
+            "id": "medikron-roma-2",
+            "name": "Medikron",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WhKpZGr5Zgl_n8Ua05KUlg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/medikron-roma-2?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "physicians",
+                    "title": "Doctors"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.87244,
+                "longitude": 12.47706
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via del Porto Fluviale 32",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00154",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via del Porto Fluviale 32",
+                    "00154 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390657171699",
+            "display_phone": "+39 06 5717 1699",
+            "distance": 3851.496184887764
+        },
+        {
+            "id": "dott-tafuri-antonio-roma",
+            "name": "Dott. Tafuri Antonio",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dott-tafuri-antonio-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "obgyn",
+                    "title": "Obstetricians & Gynecologists"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.9133799,
+                "longitude": 12.46254
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Angelo Brofferio 7",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00195",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Angelo Brofferio 7",
+                    "00195 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39063720537",
+            "display_phone": "+39 06 372 0537",
+            "distance": 1348.864105172936
+        },
+        {
+            "id": "dott-massimo-rocchetti-roma",
+            "name": "Dott. Massimo Rocchetti",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/toA3RVA-vRy5qjsqEV_36g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dott-massimo-rocchetti-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "opthamalogists",
+                    "title": "Ophthalmologists"
+                },
+                {
+                    "alias": "laserlasikeyes",
+                    "title": "Laser Eye Surgery/Lasik"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 41.9131709,
+                "longitude": 12.4549218
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Riccardo Grazioli Lante 78",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00195",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Riccardo Grazioli Lante 78",
+                    "00195 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390696840928",
+            "display_phone": "+39 06 9684 0928",
+            "distance": 1163.3650003659598
+        },
+        {
+            "id": "dott-santini-massimo-roma",
+            "name": "Dott. Santini Massimo",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dott-santini-massimo-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "cardiology",
+                    "title": "Cardiologists"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.89581,
+                "longitude": 12.41876
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Aurelia 559",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00165",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Aurelia 559",
+                    "00165 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390666416380",
+            "display_phone": "+39 06 6641 6380",
+            "distance": 2948.92458812961
+        },
+        {
+            "id": "aventino-medical-group-roma",
+            "name": "Aventino Medical Group",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/aventino-medical-group-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "medcenters",
+                    "title": "Medical Centers"
+                }
+            ],
+            "rating": 2.5,
+            "coordinates": {
+                "latitude": 41.88397,
+                "longitude": 12.4816299
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Sant'Alberto Magno 5",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Sant'Alberto Magno 5",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390657288349",
+            "display_phone": "+39 06 5728 8349",
+            "distance": 3064.099486349088
+        },
+        {
+            "id": "omoios-roma",
+            "name": "Omoios",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/omoios-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "acupuncture",
+                    "title": "Acupuncture"
+                },
+                {
+                    "alias": "osteopathicphysicians",
+                    "title": "Osteopathic Physicians"
+                },
+                {
+                    "alias": "homeopathic",
+                    "title": "Homeopathic"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.88227,
+                "longitude": 12.4697099
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Benedetto Musolino 23",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Benedetto Musolino 23",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39065816501",
+            "display_phone": "+39 06 581 6501",
+            "distance": 2625.5106342385857
+        },
+        {
+            "id": "dott-ssa-serenella-corbo-roma",
+            "name": "Dott.ssa Serenella Corbo",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dott-ssa-serenella-corbo-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "physicians",
+                    "title": "Doctors"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.87736,
+                "longitude": 12.44867
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Vittorio Putti 8",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00152",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Vittorio Putti 8",
+                    "00152 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390658202059",
+            "display_phone": "+39 06 5820 2059",
+            "distance": 2868.1510490931096
+        },
+        {
+            "id": "az-usl-rm-e-roma",
+            "name": "Az.Usl Rm E",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/az-usl-rm-e-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "familydr",
+                    "title": "Family Practice"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 41.9401413,
+                "longitude": 12.4236801
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Trionfale 8816",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00135",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Trionfale 8816",
+                    "00135 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39063384057",
+            "display_phone": "+39 06 338 4057",
+            "distance": 4877.1454763840775
+        },
+        {
+            "id": "dott-cavalieri-roma",
+            "name": "Dott. Cavalieri",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dott-cavalieri-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "obgyn",
+                    "title": "Obstetricians & Gynecologists"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.8894501,
+                "longitude": 12.4769697
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Lungotevere degli Anguillara 11",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Lungotevere degli Anguillara 11",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39065813159",
+            "display_phone": "+39 06 581 3159",
+            "distance": 2321.031272752492
+        },
+        {
+            "id": "dott-antonio-comito-roma",
+            "name": "Dott. Antonio Comito",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dott-antonio-comito-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "pediatricians",
+                    "title": "Pediatricians"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.9163951,
+                "longitude": 12.4597699
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Francesco De Sanctis 15",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00195",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Francesco De Sanctis 15",
+                    "00195 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390637518351",
+            "display_phone": "+39 06 3751 8351",
+            "distance": 1584.28004631752
+        },
+        {
+            "id": "ars-medica-roma",
+            "name": "Ars Medica",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/QpavjBqT0XlS1PCEMzPNDQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ars-medica-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "cosmeticsurgeons",
+                    "title": "Cosmetic Surgeons"
+                },
+                {
+                    "alias": "medcenters",
+                    "title": "Medical Centers"
+                },
+                {
+                    "alias": "obgyn",
+                    "title": "Obstetricians & Gynecologists"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.94802,
+                "longitude": 12.46756
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Cesare Ferrero di Cambiano 29",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00191",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Cesare Ferrero di Cambiano 29",
+                    "00191 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+3906362081",
+            "display_phone": "+39 06 362081",
+            "distance": 5143.77760477978
+        },
+        {
+            "id": "ospedale-santo-spirito-in-saxia-roma",
+            "name": "Ospedale Santo Spirito In Saxia",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ospedale-santo-spirito-in-saxia-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "hospitals",
+                    "title": "Hospitals"
+                }
+            ],
+            "rating": 2.5,
+            "coordinates": {
+                "latitude": 41.89996988,
+                "longitude": 12.46269912
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Lungotevere in Sassia 1",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00186",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Lungotevere in Sassia 1",
+                    "00186 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 786.2533522698479
+        },
+        {
+            "id": "ospedale-oftalmico-roma",
+            "name": "Ospedale Oftalmico",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/xjPc_WXNaSYeo3DIqkSnLQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ospedale-oftalmico-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "hospitals",
+                    "title": "Hospitals"
+                },
+                {
+                    "alias": "opthamalogists",
+                    "title": "Ophthalmologists"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.9084418,
+                "longitude": 12.4483706
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Piazzale degli Eroi 11",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00136",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Piazzale degli Eroi 11",
+                    "00136 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390668351",
+            "display_phone": "+39 06 68351",
+            "distance": 826.1805092509599
+        },
+        {
+            "id": "ospedale-fatebenefratelli-roma",
+            "name": "Ospedale Fatebenefratelli",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/mrpMPZBx_dRYCZgMojnDig/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ospedale-fatebenefratelli-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "hospitals",
+                    "title": "Hospitals"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 41.89078,
+                "longitude": 12.477
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Piazza Fatebenefratelli, 2",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00186",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Piazza Fatebenefratelli, 2",
+                    "00186 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390668210828",
+            "display_phone": "+39 06 6821 0828",
+            "distance": 2313.3505839830877
+        },
+        {
+            "id": "emiliozzi-roma",
+            "name": "Emiliozzi",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/4els9bLhuTuP78n9HjmpBQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/emiliozzi-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "orthopedists",
+                    "title": "Orthopedists"
+                },
+                {
+                    "alias": "lingerie",
+                    "title": "Lingerie"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 41.9047672,
+                "longitude": 12.4764314
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Tomacelli 104",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00186",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Tomacelli 104",
+                    "00186 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39066876191",
+            "display_phone": "+39 06 687 6191",
+            "distance": 1835.984786765676
+        },
+        {
+            "id": "dott-spelar-francis-peter-roma",
+            "name": "Dott. Spelar Francis Peter",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dott-spelar-francis-peter-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "obgyn",
+                    "title": "Obstetricians & Gynecologists"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.90701,
+                "longitude": 12.4886
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Ludovisi 36",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00187",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Ludovisi 36",
+                    "00187 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+3906485706",
+            "display_phone": "+39 06 485706",
+            "distance": 2864.65415363594
+        },
+        {
+            "id": "nails-di-andrea-cretaro-roma",
+            "name": "Nails di Andrea Cretaro",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/nails-di-andrea-cretaro-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "podiatrists",
+                    "title": "Podiatrists"
+                },
+                {
+                    "alias": "othersalons",
+                    "title": "Nail Salons"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.90426,
+                "longitude": 12.48287
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Via della Vite 94",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00187",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via della Vite 94",
+                    "00187 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390669941220",
+            "display_phone": "+39 06 6994 1220",
+            "distance": 2352.56638934877
+        }
+    ],
+    "legal": [
+        {
+            "id": "studio-legale-mastracci-roma",
+            "name": "Studio Legale Mastracci",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Jl0okMyS6U-8I1fPotgSyA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/studio-legale-mastracci-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "employmentlawyers",
+                    "title": "Employment Law"
+                },
+                {
+                    "alias": "personal_injury",
+                    "title": "Personal Injury Law"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.9088583,
+                "longitude": 12.4619318
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Germanico 172",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00192",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Germanico 172",
+                    "00192 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390669370877",
+            "display_phone": "+39 06 6937 0877",
+            "distance": 923.682052731366
+        },
+        {
+            "id": "studio-legale-avv-antonio-paparo-roma",
+            "name": "Studio Legale Avv. Antonio Paparo",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/OUdB7gYsaHQwJQV0MOSQ9w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/studio-legale-avv-antonio-paparo-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "criminaldefense",
+                    "title": "Criminal Defense Law"
+                },
+                {
+                    "alias": "general_litigation",
+                    "title": "General Litigation"
+                },
+                {
+                    "alias": "personal_injury",
+                    "title": "Personal Injury Law"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.9187,
+                "longitude": 12.4666599
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Pasubio 4",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00195",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Pasubio 4",
+                    "00195 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390699702403",
+            "display_phone": "+39 06 9970 2403",
+            "distance": 2044.207474483818
+        },
+        {
+            "id": "studio-legale-cg-roma",
+            "name": "Studio Legale CG",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/studio-legale-cg-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "lawyers",
+                    "title": "Lawyers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.92199,
+                "longitude": 12.48291
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Viale Bruno Buozzi 5",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00197",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Viale Bruno Buozzi 5",
+                    "00197 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390681100684",
+            "display_phone": "+39 06 8110 0684",
+            "distance": 3100.424866863362
+        }
+    ],
+    "education": [
+        {
+            "id": "scuola-germanica-roma-2",
+            "name": "Scuola Germanica",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/scuola-germanica-roma-2?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "elementaryschools",
+                    "title": "Elementary Schools"
+                },
+                {
+                    "alias": "highschools",
+                    "title": "Middle Schools & High Schools"
+                },
+                {
+                    "alias": "preschools",
+                    "title": "Preschools"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.88973,
+                "longitude": 12.42516
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Aurelia Antica 401",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00165",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Aurelia Antica 401",
+                    "00165 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39066638776",
+            "display_phone": "+39 06 663 8776",
+            "distance": 2672.138897744664
+        },
+        {
+            "id": "accademia-studio-italia-roma",
+            "name": "Accademia Studio Italia",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9ig-n97q5x4AljyRBbrstw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/accademia-studio-italia-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "language_schools",
+                    "title": "Language Schools"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.90674,
+                "longitude": 12.46215
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Tibullo 16",
+                "address2": null,
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00193",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Tibullo 16",
+                    "00193 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390697270665",
+            "display_phone": "+39 06 9727 0665",
+            "distance": 773.43716122977
+        },
+        {
+            "id": "scuola-leonardo-da-vinci-roma",
+            "name": "Scuola Leonardo da Vinci",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/yP7JMavi4ya4PERtQWpD7Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/scuola-leonardo-da-vinci-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 6,
+            "categories": [
+                {
+                    "alias": "language_schools",
+                    "title": "Language Schools"
+                },
+                {
+                    "alias": "adultedu",
+                    "title": "Adult Education"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 41.8989435372078,
+                "longitude": 12.4682572307403
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Piazza dell'Orologio 7",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00186",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Piazza dell'Orologio 7",
+                    "00186 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390668892513",
+            "display_phone": "+39 06 6889 2513",
+            "distance": 1219.690361354118
+        },
+        {
+            "id": "centre-culturel-saint-louis-de-france-roma",
+            "name": "Centre Culturel Saint Louis de France",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/fdB4uPrQhrAfaGfj66X_1A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/centre-culturel-saint-louis-de-france-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 4,
+            "categories": [
+                {
+                    "alias": "language_schools",
+                    "title": "Language Schools"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 41.90006,
+                "longitude": 12.47518
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Largo Toniolo 20",
+                "address2": "",
+                "address3": "",
+                "city": "Roma",
+                "zip_code": "00186",
+                "country": "IT",
+                "state": "62",
+                "display_address": [
+                    "Largo Toniolo 20",
+                    "00186 Roma",
+                    "Italy"
+                ]
+            },
+            "phone": "+39066802629",
+            "display_phone": "+39 06 680 2629",
+            "distance": 1712.8531762407038
+        },
+        {
+            "id": "john-cabot-university-roma",
+            "name": "John Cabot University",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/MoGkYuqEQYX4YVsqOogZLA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/john-cabot-university-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "collegeuniv",
+                    "title": "Colleges & Universities"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.89244,
+                "longitude": 12.46749
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via della Lungara 233",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00165",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via della Lungara 233",
+                    "00165 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39066819121",
+            "display_phone": "+39 06 681 9121",
+            "distance": 1548.3280948037698
+        },
+        {
+            "id": "italiaidea-roma",
+            "name": "Italiaidea",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/italiaidea-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "language_schools",
+                    "title": "Language Schools"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.8962056,
+                "longitude": 12.472084
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Piazza Della Cancelleria, 85",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00186",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Piazza Della Cancelleria, 85",
+                    "00186 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390668307620",
+            "display_phone": "+39 06 6830 7620",
+            "distance": 1628.3599506719918
+        },
+        {
+            "id": "cooking-classes-in-rome-roma",
+            "name": "Cooking Classes in Rome",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/z2efm_2NJUS9zKx0LqcZug/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/cooking-classes-in-rome-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 37,
+            "categories": [
+                {
+                    "alias": "cookingschools",
+                    "title": "Cooking Schools"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.88902207,
+                "longitude": 12.47185886
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via dei Fienaroli 5",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via dei Fienaroli 5",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+393935637527",
+            "display_phone": "+39 393 563 7527",
+            "distance": 2097.2684840121156
+        },
+        {
+            "id": "john-cabot-university-tiber-campus-roma-3",
+            "name": "John Cabot University - Tiber Campus",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/zaomyFtW0az5Q90yHlHIZQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/john-cabot-university-tiber-campus-roma-3?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "collegeuniv",
+                    "title": "Colleges & Universities"
+                }
+            ],
+            "rating": 2.5,
+            "coordinates": {
+                "latitude": 41.8906593,
+                "longitude": 12.4722004
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Lungotevere Raffaello Sanzio 12",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Lungotevere Raffaello Sanzio 12",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 1954.501367324156
+        },
+        {
+            "id": "british-school-fleming-roma",
+            "name": "British School Fleming",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/8siUUKMRjuujVByUpeGM6Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/british-school-fleming-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "language_schools",
+                    "title": "Language Schools"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.9437074,
+                "longitude": 12.4734021
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Bevagna 46",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00191",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Bevagna 46",
+                    "00191 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390633220960",
+            "display_phone": "+39 06 3322 0960",
+            "distance": 4821.114780560966
+        },
+        {
+            "id": "ciao-italia-roma",
+            "name": "Ciao Italia",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ciao-italia-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "language_schools",
+                    "title": "Language Schools"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.89755,
+                "longitude": 12.48995
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Delle Frasche, 5",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00184",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Delle Frasche, 5",
+                    "00184 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39064814084",
+            "display_phone": "+39 06 481 4084",
+            "distance": 2980.2085170074797
+        },
+        {
+            "id": "chef-in-a-day-roma",
+            "name": "Chef in a Day",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/2Haz3clFmy-HV_DzrizEcQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/chef-in-a-day-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 13,
+            "categories": [
+                {
+                    "alias": "cookingschools",
+                    "title": "Cooking Schools"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.8916899,
+                "longitude": 12.4701
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Piazza Trilussa 1",
+                "address2": null,
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Piazza Trilussa 1",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+393454867855",
+            "display_phone": "+39 345 486 7855",
+            "distance": 1821.1900460926859
+        },
+        {
+            "id": "inrome-cooking-roma",
+            "name": "Inrome Cooking",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/fXWLEPy0PINOZsVWEPDjSQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/inrome-cooking-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "cookingschools",
+                    "title": "Cooking Schools"
+                },
+                {
+                    "alias": "foodtours",
+                    "title": "Food Tours"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.8994500394241,
+                "longitude": 12.4737455699405
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Corso del Rinascimento 65",
+                "address2": null,
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00186",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Corso del Rinascimento 65",
+                    "00186 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390668805375",
+            "display_phone": "+39 06 6880 5375",
+            "distance": 1640.229769968806
+        },
+        {
+            "id": "danielas-cooking-school-roma",
+            "name": "Daniela's Cooking School",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/2TEcJEojgPeJbSOuNRtSpA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/danielas-cooking-school-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "cookingschools",
+                    "title": "Cooking Schools"
+                },
+                {
+                    "alias": "cookingclasses",
+                    "title": "Cooking Classes"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.88341,
+                "longitude": 12.48507
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via delle Terme Deciane 10",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via delle Terme Deciane 10",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+393383511339",
+            "display_phone": "+39 338 351 1339",
+            "distance": 3332.014934164788
+        },
+        {
+            "id": "grano-e-farina-roma",
+            "name": "Grano & Farina",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/oFagOdaJoy_XCbXKr3AMJg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/grano-e-farina-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "cookingschools",
+                    "title": "Cooking Schools"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.893935,
+                "longitude": 12.4651732
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Vicolo della Penitenza 17",
+                "address2": null,
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00165",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Vicolo della Penitenza 17",
+                    "00165 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390645542396",
+            "display_phone": "+39 06 4554 2396",
+            "distance": 1309.053315704808
+        },
+        {
+            "id": "italian-chef-academy-roma",
+            "name": "Italian Chef Academy",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/italian-chef-academy-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "cookingschools",
+                    "title": "Cooking Schools"
+                }
+            ],
+            "rating": 1,
+            "coordinates": {
+                "latitude": 41.92817,
+                "longitude": 12.44485
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Decio Filipponi 15",
+                "address2": "",
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00136",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Decio Filipponi 15",
+                    "00136 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390687673996",
+            "display_phone": "+39 06 8767 3996",
+            "distance": 2933.0234878443416
+        }
+    ],
+    "employment": [
+        {
+            "id": "porta-futuro-roma-6",
+            "name": "Porta Futuro",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ie9W6tJYStyzttpK2ikkCA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/porta-futuro-roma-6?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "employmentagencies",
+                    "title": "Employment Agencies"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.876958,
+                "longitude": 12.474284
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Galvani 108",
+                "address2": "",
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00185",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Galvani 108",
+                    "00185 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390667664868",
+            "display_phone": "+39 06 6766 4868",
+            "distance": 3302.560729915858
+        }
+    ],
+    "shops": [
+        {
+            "id": "galleria-alberto-sordi-roma",
+            "name": "Galleria Alberto Sordi",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/A-HZQv7jUuvlRTAFAFp52w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/galleria-alberto-sordi-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 23,
+            "categories": [
+                {
+                    "alias": "shoppingcenters",
+                    "title": "Shopping Centers"
+                },
+                {
+                    "alias": "jewelry",
+                    "title": "Jewelry"
+                },
+                {
+                    "alias": "fashion",
+                    "title": "Fashion"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.90061,
+                "longitude": 12.47973
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Piazza Colonna 53",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00187",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Piazza Colonna 53",
+                    "00187 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390669190769",
+            "display_phone": "+39 06 6919 0769",
+            "distance": 2360.086736838096
+        },
+        {
+            "id": "zara-roma",
+            "name": "Zara",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/b-RHfxyVjakl3tkbyjXXqA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/zara-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 13,
+            "categories": [
+                {
+                    "alias": "accessories",
+                    "title": "Accessories"
+                },
+                {
+                    "alias": "shoes",
+                    "title": "Shoe Stores"
+                },
+                {
+                    "alias": "womenscloth",
+                    "title": "Women's Clothing"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.9047573,
+                "longitude": 12.478668
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Via del Corso 189",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00186",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via del Corso 189",
+                    "00186 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390669791711",
+            "display_phone": "+39 06 6979 1711",
+            "distance": 2157.026216545088
+        },
+        {
+            "id": "laboratorio-pelletteria-roma",
+            "name": "Laboratorio Pelletteria",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/8G8qgEs7JWTcEKx6DMCHCg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/laboratorio-pelletteria-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 15,
+            "categories": [
+                {
+                    "alias": "leather",
+                    "title": "Leather Goods"
+                },
+                {
+                    "alias": "accessories",
+                    "title": "Accessories"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.9018513,
+                "longitude": 12.48478965
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Vicolo dei Maroniti 27",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00187",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Vicolo dei Maroniti 27",
+                    "00187 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39066784326",
+            "display_phone": "+39 06 678 4326",
+            "distance": 2515.361762292546
+        },
+        {
+            "id": "artigianino-roma-2",
+            "name": "Artigianino",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ByxBmw_jahD3ZpH_dyas_g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/artigianino-roma-2?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 5,
+            "categories": [
+                {
+                    "alias": "artsandcrafts",
+                    "title": "Arts & Crafts"
+                },
+                {
+                    "alias": "accessories",
+                    "title": "Accessories"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 41.89083,
+                "longitude": 12.46939
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Vicolo del Cinque 49",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Vicolo del Cinque 49",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+393477776295",
+            "display_phone": "+39 347 777 6295",
+            "distance": 1814.2890745065818
+        },
+        {
+            "id": "lillys-place-roma",
+            "name": "Lilly's Place",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ZL-vZzcF3Os47GG9i9f8Mw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/lillys-place-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "shoes",
+                    "title": "Shoe Stores"
+                },
+                {
+                    "alias": "leather",
+                    "title": "Leather Goods"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.90384,
+                "longitude": 12.46039
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Borgo Pio 154",
+                "address2": null,
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00193",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Borgo Pio 154",
+                    "00193 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390695583088",
+            "display_phone": "+39 06 9558 3088",
+            "distance": 721.64462898332
+        },
+        {
+            "id": "coin-roma-4",
+            "name": "Coin",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Ct711hfMoUSoMa4_PVNrPA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/coin-roma-4?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "deptstores",
+                    "title": "Department Stores"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.9080724,
+                "longitude": 12.4651349
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Via Cola di Rienzo 173",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00192",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Cola di Rienzo 173",
+                    "00192 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390636004298",
+            "display_phone": "+39 06 3600 4298",
+            "distance": 1068.3365023047738
+        },
+        {
+            "id": "at-claraluna-roma",
+            "name": "At Claraluna",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/at-claraluna-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "womenscloth",
+                    "title": "Women's Clothing"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.8985291,
+                "longitude": 12.4552097
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Alcide de Gasperi 39",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00193",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Alcide de Gasperi 39",
+                    "00193 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390307768238",
+            "display_phone": "+39 030 776 8238",
+            "distance": 470.87664109231395
+        },
+        {
+            "id": "coccinelle-roma",
+            "name": "Coccinelle",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/F0vxm3SXaaYsvev4zi4gzg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/coccinelle-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "accessories",
+                    "title": "Accessories"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.9072699,
+                "longitude": 12.46195
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Cola di Rienzo 253/255",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00192",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Cola di Rienzo 253/255",
+                    "00192 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39063241749",
+            "display_phone": "+39 06 324 1749",
+            "distance": 813.154033638848
+        },
+        {
+            "id": "acid-drop-roma",
+            "name": "Acid Drop",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/ZTria0e_iKTVWIzF-oDf_g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/acid-drop-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "fashion",
+                    "title": "Fashion"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.8899117,
+                "longitude": 12.4709396
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via del Moro 14",
+                "address2": null,
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via del Moro 14",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390696035643",
+            "display_phone": "+39 06 9603 5643",
+            "distance": 1966.788275567288
+        },
+        {
+            "id": "il-sellaio-roma",
+            "name": "Il Sellaio",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/C9AoueSf8BdGSeK_a5mvQg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/il-sellaio-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "accessories",
+                    "title": "Accessories"
+                },
+                {
+                    "alias": "luggage",
+                    "title": "Luggage"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.9090309,
+                "longitude": 12.4606104
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Via Caio Mario 14",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00192",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Caio Mario 14",
+                    "00192 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39063211719",
+            "display_phone": "+39 06 321 1719",
+            "distance": 877.0947705855859
+        },
+        {
+            "id": "annie-roma",
+            "name": "Annie",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/_tcP2_ZSCH-Qhv8arpLD8w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/annie-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "womenscloth",
+                    "title": "Women's Clothing"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.8880054,
+                "longitude": 12.4735576
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Viale Trastevere 73",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Viale Trastevere 73",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39065800261",
+            "display_phone": "+39 06 580 0261",
+            "distance": 2277.020113287328
+        },
+        {
+            "id": "di-san-giacomo-sandals-roma",
+            "name": "Di San Giacomo Sandals",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/4iLMXoYt1QDgVeYwnLZOug/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/di-san-giacomo-sandals-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "jewelry",
+                    "title": "Jewelry"
+                },
+                {
+                    "alias": "shoes",
+                    "title": "Shoe Stores"
+                },
+                {
+                    "alias": "watches",
+                    "title": "Watches"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.8919631962795,
+                "longitude": 12.4679349577304
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Via di Santa Dorotea 17",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via di Santa Dorotea 17",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 1637.3421973506797
+        },
+        {
+            "id": "la-tana-di-marianna-roma",
+            "name": "La Tana di Marianna",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-tana-di-marianna-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "womenscloth",
+                    "title": "Women's Clothing"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.8986421233935,
+                "longitude": 12.4298638477921
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Piazza Irnerio 31",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00165",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Piazza Irnerio 31",
+                    "00165 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 2082.073686681764
+        },
+        {
+            "id": "trast-roma-2",
+            "name": "Trast",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/HBegUZQ2k2CY1_d9_H5mtA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/trast-roma-2?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "fashion",
+                    "title": "Fashion"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 41.8801,
+                "longitude": 12.47568
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Piazza di Santa Apollonia 13A",
+                "address2": "Via Edoardo Jenner 84",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Piazza di Santa Apollonia 13A",
+                    "Via Edoardo Jenner 84",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390688978393",
+            "display_phone": "+39 06 8897 8393",
+            "distance": 1971.2417961947297
+        },
+        {
+            "id": "mercato-di-porta-portese-roma",
+            "name": "Mercato di Porta Portese",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/MGvjrCWrChvpqHSF5yyELA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mercato-di-porta-portese-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 28,
+            "categories": [
+                {
+                    "alias": "antiques",
+                    "title": "Antiques"
+                },
+                {
+                    "alias": "fleamarkets",
+                    "title": "Flea Markets"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 41.88431,
+                "longitude": 12.4736999
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Piazza di Porta Portese",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Piazza di Porta Portese",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 2652.552434286968
+        },
+        {
+            "id": "vacanze-romane-souvenir-roma",
+            "name": "Vacanze Romane Souvenir",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/vacanze-romane-souvenir-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "giftshops",
+                    "title": "Gift Shops"
+                },
+                {
+                    "alias": "religiousitems",
+                    "title": "Religious Items"
+                },
+                {
+                    "alias": "souvenirs",
+                    "title": "Souvenir Shops"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.90296,
+                "longitude": 12.45953
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Rusticucci 12",
+                "address2": "",
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00193",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Rusticucci 12",
+                    "00193 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 428.18976196882795
+        },
+        {
+            "id": "pam-express-roma",
+            "name": "Pam Express",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/4fqN4nKUruaQCgQD2akoPg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pam-express-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "grocery",
+                    "title": "Grocery"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.9081472229781,
+                "longitude": 12.4631731957197
+            },
+            "transactions": [],
+            "price": "€",
+            "location": {
+                "address1": "Via dei Gracchi 139",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00192",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via dei Gracchi 139",
+                    "00192 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390220637",
+            "display_phone": "+39 02 20637",
+            "distance": 943.2558772373719
+        },
+        {
+            "id": "alexandra-roma",
+            "name": "Alexandra",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/DniQUsELAdhBuwXsqIpgVA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/alexandra-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "shoes",
+                    "title": "Shoe Stores"
+                },
+                {
+                    "alias": "womenscloth",
+                    "title": "Women's Clothing"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.90815,
+                "longitude": 12.46366
+            },
+            "transactions": [],
+            "price": "€€€",
+            "location": {
+                "address1": "Via Paolo Emilio 19",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00192",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Paolo Emilio 19",
+                    "00192 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39063243311",
+            "display_phone": "+39 06 324 3311",
+            "distance": 967.985322534326
+        },
+        {
+            "id": "dadada-roma",
+            "name": "Dadada",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/EFnkqALlK6JTDrBxhtAZNA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dadada-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 4,
+            "categories": [
+                {
+                    "alias": "womenscloth",
+                    "title": "Women's Clothing"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.89503,
+                "longitude": 12.4727599
+            },
+            "transactions": [],
+            "price": "€€€€",
+            "location": {
+                "address1": "Via dei Giubbonari, 52",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00186",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via dei Giubbonari, 52",
+                    "00186 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39063213504",
+            "display_phone": "+39 06 321 3504",
+            "distance": 1742.1166521344778
+        },
+        {
+            "id": "la-maison-roma-2",
+            "name": "La Maison",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/y6VI4L_ajmmsU7nCctugQA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-maison-roma-2?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "homedecor",
+                    "title": "Home Decor"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.9078231,
+                "longitude": 12.4518474
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Candia 113",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00192",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Candia 113",
+                    "00192 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390639749766",
+            "display_phone": "+39 06 3974 9766",
+            "distance": 606.52222775651
+        }
+    ],
+    "region": {
+        "center": {
+            "longitude": 12.4544186,
+            "latitude": 41.9027152
+        }
+    }
+}
