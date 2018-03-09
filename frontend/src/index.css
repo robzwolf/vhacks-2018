@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  root:rgba(0,0,0,0.04);
+}
+
+#main-container {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url("https://static1.squarespace.com/static/54a40295e4b0170492d4f960/t/572cd9834d088e89334e684d/1462557060913/community+hands+in.jpg");
+}
+
+#main-container-overlay {
+    position: absolute;
+    content:" ";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display: block;
+    z-index:0;
+    background-color: rgba(0,0,0,0.5);
+}

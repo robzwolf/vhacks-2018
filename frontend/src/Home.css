@@ -1,0 +1,32 @@
+#quote-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#exampleCheck1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    z-index: 0;
+    border: 1.5px solid #fff;
+    border-radius: 1px;
+    margin-top: 2px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.col-sm {
+    width: 20vh !important;
+}
+
+.container {
+    width: auto;
+}
+
+#row-quote {
+    color:white;
+}
