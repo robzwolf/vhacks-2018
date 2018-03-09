@@ -3,28 +3,18 @@ import CategoryIcon from './CategoryIcon';
 import './Home.css'
 
 const CategorySelector = (props) => {
+    const cats = props.categories;
     return (
         <div class="card card-body">
             <h4 class="card-title">Additional Categories</h4>
             <div className='row'>
-                <div class="col-sm">
+                {cats.map((cat, i) =>
+                    <div class="col-sm" key={i}>
                     <div class="form-check">
                         <input onChange={props.onChange} type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-                        <label class="form-check-label" for="exampleCheck1"> Housing </label>
+                        <label class="form-check-label" for="exampleCheck1"> {cat} </label>
                     </div>
-                </div>
-                <div class="col-sm">
-                    <div class="form-check">
-                        <input onChange={props.onChange} type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-                        <label class="form-check-label" for="exampleCheck1"> Loans </label>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="form-check">
-                        <input onChange={props.onChange} type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-                        <label class="form-check-label" for="exampleCheck1"> Taxes </label>
-                    </div>
-                </div>
+                </div>)}
             </div>
         </div>
     )
@@ -90,7 +80,7 @@ export default class Home extends React.Component {
                     </div>
                 </div>
                 <div>
-                    <CategorySelector onChange={this.updateCategories} />
+                    <CategorySelector onChange={this.updateCategories} categories={this.state.addCategories}/>
                 </div>
             </div>
         )
