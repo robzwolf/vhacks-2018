@@ -17,7 +17,8 @@ export default class Home extends React.Component {
                 <div class="row">
                     <div className="col-sm"></div>
                     <div class="col-sm">
-                        <CategoryIcon style={{background: "#7DCE82", marginTop: "100px", marginLeft:"100px"}} title="Health"/>
+                           <CategoryIcon title= "Health"/>
+
                     </div>
                     <div className="col-sm"></div>
                 </div>
@@ -27,16 +28,17 @@ export default class Home extends React.Component {
                     </div>
                     <div className="col-sm"></div>
                     <div class="col-sm">
-                        <CategoryIcon title= "Health"/>
+                            <CategoryIcon title= "Health"/>         
                     </div>
                 </div>
                 <div className="row" id = "bottom-row">
                     <div class="col-sm">
-                        <CategoryIcon title= "Education"/>
+                          <CategoryIcon style={{background: "#7DCE82", marginTop: "100px", marginLeft:"100px"}} title="Education"/>
                     </div>
                     <div className="col-sm"></div>
                     <div class="col-sm">
-                        <CategoryIcon title= "Health"/>
+                      <CategoryIcon style={{background: "#7DCE82", marginTop: "100px", marginLeft:"10px", marginRight:"190px"}} title="Language"/>
+                      
                     </div>
                 </div>
                 </div>
