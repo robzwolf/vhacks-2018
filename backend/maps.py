@@ -2,6 +2,7 @@ from flask import Flask, request, send_from_directory, jsonify, json, render_tem
 import folium
 from folium.plugins import MarkerCluster
 import pandas as pd
+import matplotlib.pyplot as plt
 import seaborn as sns
 import json
 from IPython.display import HTML, display
@@ -50,7 +51,8 @@ def index():
 @app.errorhandler(500)
 def server_error(e):
     # Log the error and stacktrace.
-    logging.exception("An error occurred during a request.")
+    # logging.exception("An error occurred during a request.")
     return "An internal error occurred.", 500
+
 
 create_map(0, [10, 20])
