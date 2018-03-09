@@ -1,0 +1,780 @@
+{
+    "businesses": [
+        {
+            "id": "doctors-in-italy-roma",
+            "name": "Doctors in Italy",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/UlckKD-jagdCCR6u9c9WMw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/doctors-in-italy-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 7,
+            "categories": [
+                {
+                    "alias": "internalmed",
+                    "title": "Internal Medicine"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 41.90407,
+                "longitude": 12.48091
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Frattina 48",
+                "address2": null,
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00187",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Frattina 48",
+                    "00187 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39066790695",
+            "display_phone": "+39 06 679 0695",
+            "distance": 4560.649390861686
+        },
+        {
+            "id": "pirrotta-enzo-roma",
+            "name": "Pirrotta Enzo",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pirrotta-enzo-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "familydr",
+                    "title": "Family Practice"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.8437429,
+                "longitude": 12.5836377
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Tuscolana 859",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00173",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Tuscolana 859",
+                    "00173 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390671077139",
+            "display_phone": "+39 06 7107 7139",
+            "distance": 10742.248624535103
+        },
+        {
+            "id": "medikron-roma-2",
+            "name": "Medikron",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WhKpZGr5Zgl_n8Ua05KUlg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/medikron-roma-2?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "physicians",
+                    "title": "Doctors"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.87244,
+                "longitude": 12.47706
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via del Porto Fluviale 32",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00154",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via del Porto Fluviale 32",
+                    "00154 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390657171699",
+            "display_phone": "+39 06 5717 1699",
+            "distance": 6397.98349527609
+        },
+        {
+            "id": "farmacia-gravina-roma",
+            "name": "Farmacia Gravina",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/farmacia-gravina-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "physicians",
+                    "title": "Doctors"
+                },
+                {
+                    "alias": "cosmetics",
+                    "title": "Cosmetics & Beauty Supply"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.93675,
+                "longitude": 12.53916
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Via Nomentana 566",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00141",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Nomentana 566",
+                    "00141 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390686895602",
+            "display_phone": "+39 06 8689 5602",
+            "distance": 2956.760393617716
+        },
+        {
+            "id": "ars-medica-roma",
+            "name": "Ars Medica",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/QpavjBqT0XlS1PCEMzPNDQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/ars-medica-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "cosmeticsurgeons",
+                    "title": "Cosmetic Surgeons"
+                },
+                {
+                    "alias": "medcenters",
+                    "title": "Medical Centers"
+                },
+                {
+                    "alias": "obgyn",
+                    "title": "Obstetricians & Gynecologists"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.94802,
+                "longitude": 12.46756
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Cesare Ferrero di Cambiano 29",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00191",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Cesare Ferrero di Cambiano 29",
+                    "00191 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+3906362081",
+            "display_phone": "+39 06 362081",
+            "distance": 6992.069200404225
+        },
+        {
+            "id": "poli-ambulatorio-young-roma",
+            "name": "Poli Ambulatorio Young",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/QkZYM4_2rRV0ujCnUsixIg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/poli-ambulatorio-young-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "familydr",
+                    "title": "Family Practice"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 41.73091,
+                "longitude": 12.27767
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via di Santa Monica 11",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00122",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via di Santa Monica 11",
+                    "00122 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390656000236",
+            "display_phone": "+39 06 5600 0236",
+            "distance": 29214.11803255634
+        },
+        {
+            "id": "prof-daniela-mango-roma",
+            "name": "Prof. Daniela Mango",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/prof-daniela-mango-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "physicians",
+                    "title": "Doctors"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.91872,
+                "longitude": 12.4399
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Attilio Friggeri 103",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00136",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Attilio Friggeri 103",
+                    "00136 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390635453961",
+            "display_phone": "+39 06 3545 3961",
+            "distance": 7965.096081274198
+        },
+        {
+            "id": "az-usl-rm-e-roma",
+            "name": "Az.Usl Rm E",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/az-usl-rm-e-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "familydr",
+                    "title": "Family Practice"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 41.9401413,
+                "longitude": 12.4236801
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Trionfale 8816",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00135",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Trionfale 8816",
+                    "00135 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39063384057",
+            "display_phone": "+39 06 338 4057",
+            "distance": 9821.450151488389
+        },
+        {
+            "id": "consultorio-familiare-3-municipio-roma",
+            "name": "consultorio familiare 3 municipio",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/consultorio-familiare-3-municipio-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "familydr",
+                    "title": "Family Practice"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.9111099,
+                "longitude": 12.5261898
+            },
+            "transactions": [],
+            "location": {
+                "address1": "via boemondo 21",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00162",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "via boemondo 21",
+                    "00162 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390644244991",
+            "display_phone": "+39 06 4424 4991",
+            "distance": 789.3667799854419
+        },
+        {
+            "id": "fisioterapista-corrado-cerrato-roma",
+            "name": "Fisioterapista Corrado Cerrato",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/fisioterapista-corrado-cerrato-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "osteopathicphysicians",
+                    "title": "Osteopathic Physicians"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.8506,
+                "longitude": 12.48447
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Cristoforo Colombo, 456",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00145",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Cristoforo Colombo, 456",
+                    "00145 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+393470378783",
+            "display_phone": "+39 347 037 8783",
+            "distance": 7854.118108259486
+        },
+        {
+            "id": "dott-giuliano-urru-roma",
+            "name": "Dott. Giuliano Urru",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dott-giuliano-urru-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "physicaltherapy",
+                    "title": "Physical Therapy"
+                },
+                {
+                    "alias": "osteopathicphysicians",
+                    "title": "Osteopathic Physicians"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.92771,
+                "longitude": 12.5692799
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Casal de' Pazzi 82",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00156",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Casal de' Pazzi 82",
+                    "00156 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+393336470176",
+            "display_phone": "+39 333 647 0176",
+            "distance": 3418.8933013925794
+        },
+        {
+            "id": "studio-medico-brofferio-roma",
+            "name": "Studio Medico Brofferio",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/studio-medico-brofferio-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "dermatology",
+                    "title": "Dermatologists"
+                },
+                {
+                    "alias": "medcenters",
+                    "title": "Medical Centers"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.9067999,
+                "longitude": 12.46875
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Cicerone, 44",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00193",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Cicerone, 44",
+                    "00193 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39063722310",
+            "display_phone": "+39 06 372 2310",
+            "distance": 5534.727487952572
+        },
+        {
+            "id": "aventino-medical-group-roma",
+            "name": "Aventino Medical Group",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/aventino-medical-group-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "medcenters",
+                    "title": "Medical Centers"
+                }
+            ],
+            "rating": 2.5,
+            "coordinates": {
+                "latitude": 41.88397,
+                "longitude": 12.4816299
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Sant'Alberto Magno 5",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Sant'Alberto Magno 5",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390657288349",
+            "display_phone": "+39 06 5728 8349",
+            "distance": 5337.954648096052
+        },
+        {
+            "id": "studio-medico-associato-roma",
+            "name": "Studio Medico Associato",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/H5a5jDKhjJdTQilidRevDQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/studio-medico-associato-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "physicians",
+                    "title": "Doctors"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.91417,
+                "longitude": 12.50714
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Novara 8",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00198",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Novara 8",
+                    "00198 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390644202245",
+            "display_phone": "+39 06 4420 2245",
+            "distance": 2425.093640774348
+        },
+        {
+            "id": "omoios-roma",
+            "name": "Omoios",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/omoios-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "acupuncture",
+                    "title": "Acupuncture"
+                },
+                {
+                    "alias": "osteopathicphysicians",
+                    "title": "Osteopathic Physicians"
+                },
+                {
+                    "alias": "homeopathic",
+                    "title": "Homeopathic"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.88227,
+                "longitude": 12.4697099
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Benedetto Musolino 23",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Benedetto Musolino 23",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39065816501",
+            "display_phone": "+39 06 581 6501",
+            "distance": 6254.919428804019
+        },
+        {
+            "id": "farmacia-zelli-giulio-roma",
+            "name": "Farmacia Zelli Giulio",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/farmacia-zelli-giulio-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "physicians",
+                    "title": "Doctors"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.87329,
+                "longitude": 12.5265
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Eurialo 35",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00100",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Eurialo 35",
+                    "00100 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39067887549",
+            "display_phone": "+39 06 788 7549",
+            "distance": 4180.767991055385
+        },
+        {
+            "id": "dott-santini-massimo-roma",
+            "name": "Dott. Santini Massimo",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dott-santini-massimo-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "cardiology",
+                    "title": "Cardiologists"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.89581,
+                "longitude": 12.41876
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Aurelia 559",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00165",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Aurelia 559",
+                    "00165 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390666416380",
+            "display_phone": "+39 06 6641 6380",
+            "distance": 9679.767457821035
+        },
+        {
+            "id": "dott-ssa-serenella-corbo-roma",
+            "name": "Dott.ssa Serenella Corbo",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dott-ssa-serenella-corbo-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "physicians",
+                    "title": "Doctors"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 41.87736,
+                "longitude": 12.44867
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Vittorio Putti 8",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00152",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Vittorio Putti 8",
+                    "00152 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+390658202059",
+            "display_phone": "+39 06 5820 2059",
+            "distance": 8049.396826238361
+        },
+        {
+            "id": "dott-tafuri-antonio-roma",
+            "name": "Dott. Tafuri Antonio",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dott-tafuri-antonio-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "obgyn",
+                    "title": "Obstetricians & Gynecologists"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.9133799,
+                "longitude": 12.46254
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Via Angelo Brofferio 7",
+                "address2": null,
+                "address3": null,
+                "city": "Rome",
+                "zip_code": "00195",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Via Angelo Brofferio 7",
+                    "00195 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39063720537",
+            "display_phone": "+39 06 372 0537",
+            "distance": 6042.181356624165
+        },
+        {
+            "id": "dott-cavalieri-roma",
+            "name": "Dott. Cavalieri",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dott-cavalieri-roma?adjust_creative=XhLfyjDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=XhLfyjDwZ4SS3zgOkHuhCA",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "obgyn",
+                    "title": "Obstetricians & Gynecologists"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 41.8894501,
+                "longitude": 12.4769697
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Lungotevere degli Anguillara 11",
+                "address2": "",
+                "address3": "",
+                "city": "Rome",
+                "zip_code": "00153",
+                "country": "IT",
+                "state": "RM",
+                "display_address": [
+                    "Lungotevere degli Anguillara 11",
+                    "00153 Rome",
+                    "Italy"
+                ]
+            },
+            "phone": "+39065813159",
+            "display_phone": "+39 06 581 3159",
+            "distance": 5385.883435510464
+        }
+    ],
+    "total": 65,
+    "region": {
+        "center": {
+            "longitude": 12.5354003906,
+            "latitude": 41.9102694022
+        }
+    }
+}
