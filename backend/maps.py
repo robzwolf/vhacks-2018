@@ -29,7 +29,7 @@ counter = 0
 app = Flask(__name__, static_url_path='')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///main.db'
 engine = create_engine('sqlite:///main.db', echo=True)
-Session = sessionmaker(bind = engine)
+Session = sessionmaker(bind=engine)
 session = Session()
 
 
