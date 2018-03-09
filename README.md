@@ -1,6 +1,12 @@
 # vhacks-2018
 VHacks 2018 hack. Theme: Migrants &amp; Refugees
 
+## How to run
+
+- `pip3 install -r requirements.txt`; if that fails, `pip install -r requirements.txt`
+- `python3 backend/backend.py`
+- open `127.0.0.1:5000` or `localhost:5000` in browser
+
 ## Elevator Pitch
 Digitised version of word of mouth network
 
