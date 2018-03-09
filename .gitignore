@@ -3,3 +3,5 @@
 */.idea/
 venv/
 */venv/
+frontend/.idea/
+backend/.idea/
