@@ -1,5 +1,6 @@
 import React from 'react';
 import CategoryIcon from './CategoryIcon';
+import './Home.css'
 
 export default class Home extends React.Component {
     constructor() {
@@ -20,7 +21,7 @@ export default class Home extends React.Component {
                     </div>
                     <div className="col-sm"></div>
                 </div>
-                <div className='row'>
+                <div className="row">
                     <div class="col-sm">
                         <CategoryIcon title= "Education"/>
                     </div>
@@ -29,7 +30,7 @@ export default class Home extends React.Component {
                         <CategoryIcon title= "Health"/>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row" id = "bottom-row">
                     <div class="col-sm">
                         <CategoryIcon title= "Education"/>
                     </div>
