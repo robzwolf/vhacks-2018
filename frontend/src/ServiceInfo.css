@@ -1,0 +1,21 @@
+.cover-image-container {
+    width: 100vw;
+    height: 45vh;
+}
+
+.cover-image {
+    width: 100%;
+    height: 100%;
+}
+
+#cover-image-overlay {
+    position: absolute;
+    content:" ";
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 45vh;
+    display: block;
+    z-index:0;
+    background-color: rgba(0,0,0,0.65);
+}

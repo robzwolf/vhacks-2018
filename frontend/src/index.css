@@ -10,8 +10,8 @@ body {
     display: flex;
     height: 100vh;
     width: 100%;
-    background-size: cover;
-    background-image: url("https://static1.squarespace.com/static/54a40295e4b0170492d4f960/t/572cd9834d088e89334e684d/1462557060913/community+hands+in.jpg");
+    /*background-size: cover;*/
+    /*background-image: url("https://static1.squarespace.com/static/54a40295e4b0170492d4f960/t/572cd9834d088e89334e684d/1462557060913/community+hands+in.jpg");*/
 }
 
 #main-container-overlay {
