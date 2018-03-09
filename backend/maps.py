@@ -21,9 +21,8 @@ from sklearn.datasets.samples_generator import make_blobs
 
 random.seed(1234)
 sns.set(font_scale=1.5)
-
-latitude = 37.427829
-longitude = -122.170214
+latitude =
+longitude = 12.4551347
 counter = 0
 
 app = Flask(__name__, static_url_path='')
@@ -48,10 +47,8 @@ def generate_random_data(lat, lon, n_samples, n_centers):
     return data, cluster_labels
 
 
-def create_map():
-    X, cluster_labels = generate_random_data(latitude, longitude, 1000, 100)
-
-    df = pd.DataFrame(X)
+def create_map(json):
+    df = pd.DataFrame(json)
     df.to_csv("geo.csv")
 
     # Loads data from csv into pandas dataframe
@@ -60,7 +57,7 @@ def create_map():
     print()
 
     # Stanford coordinates
-    coords = [37.427829, -122.170214]
+    coords = [41.9024565, -122.170214]
 
     # creates an empty map zoomed in Stanford
     stan_map = folium.Map(location=coords, zoom_start=12)

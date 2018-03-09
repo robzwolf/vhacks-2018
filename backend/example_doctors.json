@@ -1,4 +1,4 @@
-GET https://api.yelp.com/v3/businesses/search?term=doctor&location=Rome
+// GET https://api.yelp.com/v3/businesses/search?term=doctor&location=Rome
 
 {
     "businesses": [
