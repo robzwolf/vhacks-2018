@@ -11,7 +11,7 @@ export default class CategoryIcon extends React.Component {
         return(
             <div className='container'>
               <div style={this.props.style} className="circle z-depth-2">
-                  <p> {this.props.title} </p>
+                  <h3> {this.props.title} </h3>
               </div>
             </div>
         )

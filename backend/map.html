@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_bb0ccf192ab34a6b9cfacadbd8baa38d {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css" />
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bb0ccf192ab34a6b9cfacadbd8baa38d" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_bb0ccf192ab34a6b9cfacadbd8baa38d = L.map(
+                                  'map_bb0ccf192ab34a6b9cfacadbd8baa38d',
+                                  {center: [41.9027152,12.4544186],
+                                  zoom: 12,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_355ead91fcbc4ca3a7b1507c23d540bf = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_bb0ccf192ab34a6b9cfacadbd8baa38d);
+        
+    
+            var marker_cluster_9bf4ab96867a42618e17eb5afb44ff78 = L.markerClusterGroup({
+                
+            });
+            map_bb0ccf192ab34a6b9cfacadbd8baa38d.addLayer(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+            var marker_63305ad22493406e89e62ecade183145 = L.marker(
+                [41.90407,12.48091],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_c1df20049127450db4541ede334741d4 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_63305ad22493406e89e62ecade183145.setIcon(icon_c1df20049127450db4541ede334741d4);
+            
+    
+            var popup_f180fcb95dec4735abf8f3597eb96adf = L.popup({maxWidth: '300'});
+
+            
+                var html_697bc0bfc5f84dc69641b00c3dd9f53d = $('<div id="html_697bc0bfc5f84dc69641b00c3dd9f53d" style="width: 100.0%; height: 100.0%;">Doctors in Italy: 4.5 stars</div>')[0];
+                popup_f180fcb95dec4735abf8f3597eb96adf.setContent(html_697bc0bfc5f84dc69641b00c3dd9f53d);
+            
+
+            marker_63305ad22493406e89e62ecade183145.bindPopup(popup_f180fcb95dec4735abf8f3597eb96adf);
+
+            
+        
+    
+
+            var marker_989f4fc4593f4f31b8430c05a5d3ece9 = L.marker(
+                [41.91872,12.4399],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_320e487acff94bcd9a07640f1f535d70 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_989f4fc4593f4f31b8430c05a5d3ece9.setIcon(icon_320e487acff94bcd9a07640f1f535d70);
+            
+    
+            var popup_7ac5f67601e8474899cfaa474240146c = L.popup({maxWidth: '300'});
+
+            
+                var html_0b81c5ba28ab4570aa2d308c693e4185 = $('<div id="html_0b81c5ba28ab4570aa2d308c693e4185" style="width: 100.0%; height: 100.0%;">Prof. Daniela Mango: 5.0 stars</div>')[0];
+                popup_7ac5f67601e8474899cfaa474240146c.setContent(html_0b81c5ba28ab4570aa2d308c693e4185);
+            
+
+            marker_989f4fc4593f4f31b8430c05a5d3ece9.bindPopup(popup_7ac5f67601e8474899cfaa474240146c);
+
+            
+        
+    
+
+            var marker_e40db16951e046878e253f7b91c973af = L.marker(
+                [41.9067999,12.46875],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_3e5adb76605b413eb696ef318e316354 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e40db16951e046878e253f7b91c973af.setIcon(icon_3e5adb76605b413eb696ef318e316354);
+            
+    
+            var popup_48972a75240041a5ad76d4bb9b0f341c = L.popup({maxWidth: '300'});
+
+            
+                var html_aa70a54ae078469684ca8a63befacd4c = $('<div id="html_aa70a54ae078469684ca8a63befacd4c" style="width: 100.0%; height: 100.0%;">Studio Medico Brofferio: 4.0 stars</div>')[0];
+                popup_48972a75240041a5ad76d4bb9b0f341c.setContent(html_aa70a54ae078469684ca8a63befacd4c);
+            
+
+            marker_e40db16951e046878e253f7b91c973af.bindPopup(popup_48972a75240041a5ad76d4bb9b0f341c);
+
+            
+        
+    
+
+            var marker_bbfa3566c8bb42b5a79bf6ef01d445a0 = L.marker(
+                [41.87244,12.47706],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_da145da0354e424bb44b7e77f35b3a37 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bbfa3566c8bb42b5a79bf6ef01d445a0.setIcon(icon_da145da0354e424bb44b7e77f35b3a37);
+            
+    
+            var popup_591536282a49480cbdf77a61f7e415cc = L.popup({maxWidth: '300'});
+
+            
+                var html_f6c95c0aefd84415a1a50e469ca130ff = $('<div id="html_f6c95c0aefd84415a1a50e469ca130ff" style="width: 100.0%; height: 100.0%;">Medikron: 5.0 stars</div>')[0];
+                popup_591536282a49480cbdf77a61f7e415cc.setContent(html_f6c95c0aefd84415a1a50e469ca130ff);
+            
+
+            marker_bbfa3566c8bb42b5a79bf6ef01d445a0.bindPopup(popup_591536282a49480cbdf77a61f7e415cc);
+
+            
+        
+    
+
+            var marker_8925f217b0934feab7284450ab1b2b9d = L.marker(
+                [41.9133799,12.46254],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_1c12644f87ec4946a06d59e093aeac1c = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8925f217b0934feab7284450ab1b2b9d.setIcon(icon_1c12644f87ec4946a06d59e093aeac1c);
+            
+    
+            var popup_3988a8f1c565485b854f68892ab8b2de = L.popup({maxWidth: '300'});
+
+            
+                var html_384b5979efae4c5ea6d1d69bf6a119a8 = $('<div id="html_384b5979efae4c5ea6d1d69bf6a119a8" style="width: 100.0%; height: 100.0%;">Dott. Tafuri Antonio: 5.0 stars</div>')[0];
+                popup_3988a8f1c565485b854f68892ab8b2de.setContent(html_384b5979efae4c5ea6d1d69bf6a119a8);
+            
+
+            marker_8925f217b0934feab7284450ab1b2b9d.bindPopup(popup_3988a8f1c565485b854f68892ab8b2de);
+
+            
+        
+    
+
+            var marker_f2e108e7a3aa496fa1abed38c8a97f63 = L.marker(
+                [41.9131709,12.4549218],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_1d1805ba6cd849719a87a158f4247c2d = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f2e108e7a3aa496fa1abed38c8a97f63.setIcon(icon_1d1805ba6cd849719a87a158f4247c2d);
+            
+    
+            var popup_ff1df7edd13a44b29044f32f9632a24f = L.popup({maxWidth: '300'});
+
+            
+                var html_1b135082be334ccd8d3ad5ecd1b2c6f5 = $('<div id="html_1b135082be334ccd8d3ad5ecd1b2c6f5" style="width: 100.0%; height: 100.0%;">Dott. Massimo Rocchetti: 4.5 stars</div>')[0];
+                popup_ff1df7edd13a44b29044f32f9632a24f.setContent(html_1b135082be334ccd8d3ad5ecd1b2c6f5);
+            
+
+            marker_f2e108e7a3aa496fa1abed38c8a97f63.bindPopup(popup_ff1df7edd13a44b29044f32f9632a24f);
+
+            
+        
+    
+
+            var marker_8cb64bd1589347b3bdfba1585a81387e = L.marker(
+                [41.89581,12.41876],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_b825537619094a3cb414aeef5a4f6dec = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8cb64bd1589347b3bdfba1585a81387e.setIcon(icon_b825537619094a3cb414aeef5a4f6dec);
+            
+    
+            var popup_3a4a8854227a4792a1d14f9f446c8acd = L.popup({maxWidth: '300'});
+
+            
+                var html_1a5ac167726148f69e2fa9f0c185f3e9 = $('<div id="html_1a5ac167726148f69e2fa9f0c185f3e9" style="width: 100.0%; height: 100.0%;">Dott. Santini Massimo: 5.0 stars</div>')[0];
+                popup_3a4a8854227a4792a1d14f9f446c8acd.setContent(html_1a5ac167726148f69e2fa9f0c185f3e9);
+            
+
+            marker_8cb64bd1589347b3bdfba1585a81387e.bindPopup(popup_3a4a8854227a4792a1d14f9f446c8acd);
+
+            
+        
+    
+
+            var marker_e76bb61be15048fc800c51bf6d0049dc = L.marker(
+                [41.88397,12.4816299],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_f89250ca10114b53baa2998f1b84a1d9 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e76bb61be15048fc800c51bf6d0049dc.setIcon(icon_f89250ca10114b53baa2998f1b84a1d9);
+            
+    
+            var popup_41e0a25233f3451da244bfe2aec17683 = L.popup({maxWidth: '300'});
+
+            
+                var html_b7395da3e4194b549291fbfc5ff6e244 = $('<div id="html_b7395da3e4194b549291fbfc5ff6e244" style="width: 100.0%; height: 100.0%;">Aventino Medical Group: 2.5 stars</div>')[0];
+                popup_41e0a25233f3451da244bfe2aec17683.setContent(html_b7395da3e4194b549291fbfc5ff6e244);
+            
+
+            marker_e76bb61be15048fc800c51bf6d0049dc.bindPopup(popup_41e0a25233f3451da244bfe2aec17683);
+
+            
+        
+    
+
+            var marker_74c13874af1e497cb426fa74ab23db53 = L.marker(
+                [41.88227,12.4697099],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_812d02bd0bb04513b9fdf1facff99758 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_74c13874af1e497cb426fa74ab23db53.setIcon(icon_812d02bd0bb04513b9fdf1facff99758);
+            
+    
+            var popup_58be9e6856ab44488f29159713b3f81a = L.popup({maxWidth: '300'});
+
+            
+                var html_30d35ded11a84ef5b04629d892647231 = $('<div id="html_30d35ded11a84ef5b04629d892647231" style="width: 100.0%; height: 100.0%;">Omoios: 4.0 stars</div>')[0];
+                popup_58be9e6856ab44488f29159713b3f81a.setContent(html_30d35ded11a84ef5b04629d892647231);
+            
+
+            marker_74c13874af1e497cb426fa74ab23db53.bindPopup(popup_58be9e6856ab44488f29159713b3f81a);
+
+            
+        
+    
+
+            var marker_f73ee68a582349a39d9ea6f40529bf95 = L.marker(
+                [41.87736,12.44867],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_ead37229b1504294a73e83cef3f0e670 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f73ee68a582349a39d9ea6f40529bf95.setIcon(icon_ead37229b1504294a73e83cef3f0e670);
+            
+    
+            var popup_2442efe943314c6f90139ed3a6f505d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_f2f0a7a47aba44dcbe62b0b47897c804 = $('<div id="html_f2f0a7a47aba44dcbe62b0b47897c804" style="width: 100.0%; height: 100.0%;">Dott.ssa Serenella Corbo: 4.0 stars</div>')[0];
+                popup_2442efe943314c6f90139ed3a6f505d9.setContent(html_f2f0a7a47aba44dcbe62b0b47897c804);
+            
+
+            marker_f73ee68a582349a39d9ea6f40529bf95.bindPopup(popup_2442efe943314c6f90139ed3a6f505d9);
+
+            
+        
+    
+
+            var marker_50b16ee2e5974c49980ee0aba86fbddf = L.marker(
+                [41.9401413,12.4236801],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_f197e93eb8e446eca9e9492f85e83194 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_50b16ee2e5974c49980ee0aba86fbddf.setIcon(icon_f197e93eb8e446eca9e9492f85e83194);
+            
+    
+            var popup_8479795d03044921a3ba9a2fc5832b2c = L.popup({maxWidth: '300'});
+
+            
+                var html_0223fbf41fef4dac9d857e8671bffc0b = $('<div id="html_0223fbf41fef4dac9d857e8671bffc0b" style="width: 100.0%; height: 100.0%;">Az.Usl Rm E: 3.0 stars</div>')[0];
+                popup_8479795d03044921a3ba9a2fc5832b2c.setContent(html_0223fbf41fef4dac9d857e8671bffc0b);
+            
+
+            marker_50b16ee2e5974c49980ee0aba86fbddf.bindPopup(popup_8479795d03044921a3ba9a2fc5832b2c);
+
+            
+        
+    
+
+            var marker_8c3eefc4f49c4c2eb27835a7797e9fa7 = L.marker(
+                [41.8894501,12.4769697],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_5dbf1fa8043542e9acf6ddd15ec1cb4a = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8c3eefc4f49c4c2eb27835a7797e9fa7.setIcon(icon_5dbf1fa8043542e9acf6ddd15ec1cb4a);
+            
+    
+            var popup_81ade11defcb41c3885617c336a64cc6 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1a650d9f2f3460f876605fc603166a5 = $('<div id="html_e1a650d9f2f3460f876605fc603166a5" style="width: 100.0%; height: 100.0%;">Dott. Cavalieri: 5.0 stars</div>')[0];
+                popup_81ade11defcb41c3885617c336a64cc6.setContent(html_e1a650d9f2f3460f876605fc603166a5);
+            
+
+            marker_8c3eefc4f49c4c2eb27835a7797e9fa7.bindPopup(popup_81ade11defcb41c3885617c336a64cc6);
+
+            
+        
+    
+
+            var marker_2fa2a43f7128459d832def7731b7157e = L.marker(
+                [41.9163951,12.4597699],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_2a8620f9bfde4a3aab4a48b2a0153f81 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2fa2a43f7128459d832def7731b7157e.setIcon(icon_2a8620f9bfde4a3aab4a48b2a0153f81);
+            
+    
+            var popup_6d5eacead9c646a1be5a3213c4ae5e5f = L.popup({maxWidth: '300'});
+
+            
+                var html_56080ebb053241ad85a060ef30737941 = $('<div id="html_56080ebb053241ad85a060ef30737941" style="width: 100.0%; height: 100.0%;">Dott. Antonio Comito: 5.0 stars</div>')[0];
+                popup_6d5eacead9c646a1be5a3213c4ae5e5f.setContent(html_56080ebb053241ad85a060ef30737941);
+            
+
+            marker_2fa2a43f7128459d832def7731b7157e.bindPopup(popup_6d5eacead9c646a1be5a3213c4ae5e5f);
+
+            
+        
+    
+
+            var marker_18bbf89c073e4222978a6109e6a51dd7 = L.marker(
+                [41.94802,12.46756],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_b4a4349bf28845549f5b3a0c8ccbfb2b = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_18bbf89c073e4222978a6109e6a51dd7.setIcon(icon_b4a4349bf28845549f5b3a0c8ccbfb2b);
+            
+    
+            var popup_105bef51056b44ebb50bd725a9fc904b = L.popup({maxWidth: '300'});
+
+            
+                var html_dbdd9a2ec0814411ba2e442389d44a8c = $('<div id="html_dbdd9a2ec0814411ba2e442389d44a8c" style="width: 100.0%; height: 100.0%;">Ars Medica: 5.0 stars</div>')[0];
+                popup_105bef51056b44ebb50bd725a9fc904b.setContent(html_dbdd9a2ec0814411ba2e442389d44a8c);
+            
+
+            marker_18bbf89c073e4222978a6109e6a51dd7.bindPopup(popup_105bef51056b44ebb50bd725a9fc904b);
+
+            
+        
+    
+
+            var marker_83adfa525afb4f088de06b8988d8499a = L.marker(
+                [41.89996988,12.46269912],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_fc89931a1de841b1a7595e3134d17b36 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_83adfa525afb4f088de06b8988d8499a.setIcon(icon_fc89931a1de841b1a7595e3134d17b36);
+            
+    
+            var popup_f6165a9d91e54744b60fcf73dea11201 = L.popup({maxWidth: '300'});
+
+            
+                var html_2da49e1f08f143af808022c68ce195d2 = $('<div id="html_2da49e1f08f143af808022c68ce195d2" style="width: 100.0%; height: 100.0%;">Ospedale Santo Spirito In Saxia: 2.5 stars</div>')[0];
+                popup_f6165a9d91e54744b60fcf73dea11201.setContent(html_2da49e1f08f143af808022c68ce195d2);
+            
+
+            marker_83adfa525afb4f088de06b8988d8499a.bindPopup(popup_f6165a9d91e54744b60fcf73dea11201);
+
+            
+        
+    
+
+            var marker_31095a9aa59f4b619df0c290e37a5fac = L.marker(
+                [41.9084418,12.4483706],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_083e286549514417bccac63a2433e0e1 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_31095a9aa59f4b619df0c290e37a5fac.setIcon(icon_083e286549514417bccac63a2433e0e1);
+            
+    
+            var popup_278e562e1cfa4b5b89511bbc2a296d9b = L.popup({maxWidth: '300'});
+
+            
+                var html_e3bbb7ee982143999d67f9f3dd3b37fd = $('<div id="html_e3bbb7ee982143999d67f9f3dd3b37fd" style="width: 100.0%; height: 100.0%;">Ospedale Oftalmico: 4.0 stars</div>')[0];
+                popup_278e562e1cfa4b5b89511bbc2a296d9b.setContent(html_e3bbb7ee982143999d67f9f3dd3b37fd);
+            
+
+            marker_31095a9aa59f4b619df0c290e37a5fac.bindPopup(popup_278e562e1cfa4b5b89511bbc2a296d9b);
+
+            
+        
+    
+
+            var marker_25242a39ce5b4437ab95a97664364b17 = L.marker(
+                [41.89078,12.477],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_5da65801222a4fb3aa4c548fb99718ae = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_25242a39ce5b4437ab95a97664364b17.setIcon(icon_5da65801222a4fb3aa4c548fb99718ae);
+            
+    
+            var popup_6d863a31d0cd4701996643c534ccfa72 = L.popup({maxWidth: '300'});
+
+            
+                var html_78108df2def74d159dd448fb22697db5 = $('<div id="html_78108df2def74d159dd448fb22697db5" style="width: 100.0%; height: 100.0%;">Ospedale Fatebenefratelli: 4.5 stars</div>')[0];
+                popup_6d863a31d0cd4701996643c534ccfa72.setContent(html_78108df2def74d159dd448fb22697db5);
+            
+
+            marker_25242a39ce5b4437ab95a97664364b17.bindPopup(popup_6d863a31d0cd4701996643c534ccfa72);
+
+            
+        
+    
+
+            var marker_35ee81130a914ec2bdc706b12c9930a9 = L.marker(
+                [41.9047672,12.4764314],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_8547ade23cb349738b506ae2d9f35761 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_35ee81130a914ec2bdc706b12c9930a9.setIcon(icon_8547ade23cb349738b506ae2d9f35761);
+            
+    
+            var popup_0ca40b63fb46498689ddf962a6cf60ce = L.popup({maxWidth: '300'});
+
+            
+                var html_0f8ac7cdd4b64ec3ba84ca1dec5b83a0 = $('<div id="html_0f8ac7cdd4b64ec3ba84ca1dec5b83a0" style="width: 100.0%; height: 100.0%;">Emiliozzi: 3.0 stars</div>')[0];
+                popup_0ca40b63fb46498689ddf962a6cf60ce.setContent(html_0f8ac7cdd4b64ec3ba84ca1dec5b83a0);
+            
+
+            marker_35ee81130a914ec2bdc706b12c9930a9.bindPopup(popup_0ca40b63fb46498689ddf962a6cf60ce);
+
+            
+        
+    
+
+            var marker_ab9d18fc39814caf892ec2084d2cbedb = L.marker(
+                [41.90701,12.4886],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_fb29a7ad7235456286914fc4762adae5 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ab9d18fc39814caf892ec2084d2cbedb.setIcon(icon_fb29a7ad7235456286914fc4762adae5);
+            
+    
+            var popup_be5dea8b98d24f7e85f861c6ac5857a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_aed18625897e46f7a0512a518c60c81b = $('<div id="html_aed18625897e46f7a0512a518c60c81b" style="width: 100.0%; height: 100.0%;">Dott. Spelar Francis Peter: 5.0 stars</div>')[0];
+                popup_be5dea8b98d24f7e85f861c6ac5857a2.setContent(html_aed18625897e46f7a0512a518c60c81b);
+            
+
+            marker_ab9d18fc39814caf892ec2084d2cbedb.bindPopup(popup_be5dea8b98d24f7e85f861c6ac5857a2);
+
+            
+        
+    
+
+            var marker_b83b904fd17048f6a826ada6243049c6 = L.marker(
+                [41.90426,12.48287],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_9bf4ab96867a42618e17eb5afb44ff78);
+            
+    
+
+                var icon_42c7accd698441b9951b4a55425e2f68 = L.AwesomeMarkers.icon({
+                    icon: 'ok-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b83b904fd17048f6a826ada6243049c6.setIcon(icon_42c7accd698441b9951b4a55425e2f68);
+            
+    
+            var popup_9dc1e3bdd42b435ea2b572057cb8a654 = L.popup({maxWidth: '300'});
+
+            
+                var html_4b40c7f8b87d426cb0045ad1070a5e4e = $('<div id="html_4b40c7f8b87d426cb0045ad1070a5e4e" style="width: 100.0%; height: 100.0%;">Nails di Andrea Cretaro: 5.0 stars</div>')[0];
+                popup_9dc1e3bdd42b435ea2b572057cb8a654.setContent(html_4b40c7f8b87d426cb0045ad1070a5e4e);
+            
+
+            marker_b83b904fd17048f6a826ada6243049c6.bindPopup(popup_9dc1e3bdd42b435ea2b572057cb8a654);
+
+            
+        
+</script>

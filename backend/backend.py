@@ -1,12 +1,20 @@
 from flask import Flask
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="../frontend/public/")
 
 
-@app.route('/')
+@app.route("/<path:file>")
+def static_file(file):
+    print("requested:", file)
+    return app.send_static_file(file)
+
+
+@app.route("/")
 def hello_world():
+    return app.send_static_file("index.html")
 
-    return 'Hello World!'
+
+@app.route("/")
 
 
 if __name__ == '__main__':

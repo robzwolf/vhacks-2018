@@ -4,3 +4,11 @@ body {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   root:rgba(0,0,0,0.04);
 }
+
+#main-container {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: palevioletred;
+}
