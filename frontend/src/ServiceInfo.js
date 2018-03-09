@@ -1,5 +1,5 @@
 import React from 'react';
-import './card.css'
+import './ServiceInfo.css'
 
 
 export default class ServiceInfo extends React.Component {
@@ -10,24 +10,13 @@ export default class ServiceInfo extends React.Component {
 
 	render() {
 		return(
-			<div>
-				<body>
-				<div class="card test">
-				<div class="card-body">	 
-				<h4 class="card-title"> </h4>		        
-				<p class="card-text"></p>			
-				</div>
-				</div>
-
-		 		<div class="card">
-					<div class="card-body">				 
-			    <h4 class="card-title">Info</h4>				        
-		        <p class="card-text"></p>			
-				</div>
-				</div>
-				</body>
-	 			</div>
-
-			)
+		    <div className="service-description">
+                <div className='cover-image-container'>
+                    <div id ='cover-image-overlay'>
+                    </div>
+                    <img className='cover-image' src = "https://i.imgur.com/osgAGGo.jpg" />
+                </div>
+            </div>
+        )
 	}
 }
