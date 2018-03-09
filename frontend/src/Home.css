@@ -18,3 +18,19 @@
     -webkit-transition: 0.2s;
     transition: 0.2s;
 }
+
+.col-sm {
+    width: calc(100% / 3);
+}
+
+#row-one {
+    background-color: red;
+}
+
+#row-two{
+    background-color: green;
+}
+
+#row-three {
+    background-color: yellow;
+}

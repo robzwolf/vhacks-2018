@@ -11,7 +11,7 @@ const CategorySelector = (props) => {
                 {cats.map((cat, i) =>
                     <div class="col-sm" key={i}>
                     <div class="form-check">
-                        <input onChange={props.onChange} type="checkbox" class="form-check-input" id="exampleCheck1"></input>
+                        <input onChange={() => props.onChange(cat, i - 1)} type="checkbox" class="form-check-input" id="exampleCheck1"></input>
                         <label class="form-check-label" for="exampleCheck1"> {cat} </label>
                     </div>
                 </div>)}
@@ -20,7 +20,6 @@ const CategorySelector = (props) => {
     )
 
 }
-
 
 export default class Home extends React.Component {
     constructor() {
@@ -32,10 +31,11 @@ export default class Home extends React.Component {
         this.updateCategories = this.updateCategories.bind(this);
     }
 
-    updateCategories() {
-        console.log('update reached')
+    updateCategories(category, index) {
+        var arr = this.state.mainCategories;
+        arr[index] = category;
         this.setState({
-
+            mainCategories: arr
         })
     }
 
@@ -43,18 +43,20 @@ export default class Home extends React.Component {
         const quote = "Give every human being every right that you claim for yourself";
         const author = "- Robert Ingersoll";
         const categories = this.state.mainCategories;
+        console.log('test');
+        console.log(categories[0])
         return(
-            <div class="container">
-                <div class="row">
+            <div class="container" style={{backgroundColor: 'red', width: '60%'}}>
+                <div class="row" id='row-one'>
                     <div className="col-sm"></div>
-                    <div class="col-sm">
-                        <CategoryIcon style={{background:'#FF8A5B'}} title= "Health"/>
+                    <div className="col-sm">
+                        <CategoryIcon style={{background:'#FF8A5B'}} title={categories[0]}/>
                     </div>
-                    <div className="col-sm"></div>
+                    <div className="col-sm" style={{backgroundColor: 'green'}}></div>
                 </div>
-                <div className="row">
-                    <div class="col-sm">
-                        <CategoryIcon style={{background:'#EA526F'}} title= "Education"/>
+                <div className="row" id='row-two'>
+                    <div className="col-sm">
+                        <CategoryIcon style={{backgroundColor: 'blue', background:'#EA526F'}} title={categories[1]}/>
                     </div>
                     <div className="col-sm" id='quote-box'>
                         <div className="container">
@@ -66,17 +68,19 @@ export default class Home extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm">
-                        <CategoryIcon style={{background:'#25CED1'}} title= "Legal"/>
+                    <div className="col-sm">
+                        <CategoryIcon style={{backgroundColor: 'black', background:'#25CED1'}} title= {categories[2]}/>
                     </div>
                 </div>
-                <div className="row" id = "bottom-row">
-                    <div class="col-sm">
-                        <CategoryIcon style={{background: '#FC9E4F', marginTop: "110px", marginLeft:"90px"}} title="Employment"/>
+                <div className="row" id = "row-three">
+                    <div className="col-sm">
+                        <CategoryIcon style={{backgroundColor: 'green', background: '#FC9E4F'}}
+                                      title={categories[3]}/>
                     </div>
                     <div className="col-sm"></div>
-                    <div class="col-sm">
-                        <CategoryIcon style={{background:'#2D70BC', marginTop: "110px", marginRight:"112px"}} title="Language"/>
+                    <div className="col-sm">
+                        <CategoryIcon style={{background:'#2D70BC'}}
+                                      title={categories[4]}/>
                     </div>
                 </div>
                 <div>
