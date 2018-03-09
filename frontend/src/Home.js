@@ -43,23 +43,23 @@ export default class Home extends React.Component {
         const quote = "Give every human being every right that you claim for yourself";
         const author = "- Robert Ingersoll";
         const categories = this.state.mainCategories;
-        console.log('test');
-        console.log(categories[0])
         return(
-            <div class="container" style={{backgroundColor: 'red', width: '60%'}}>
+            <div class="container">
                 <div class="row" id='row-one'>
                     <div className="col-sm"></div>
                     <div className="col-sm">
-                        <CategoryIcon style={{background:'#FF8A5B'}} title={categories[0]}/>
+                        <CategoryIcon title={categories[0]}/>
                     </div>
                     <div className="col-sm"></div>
                 </div>
+
+
                 <div className="row" id='row-two'>
                     <div className="col-sm">
-                        <CategoryIcon style={{backgroundColor: 'blue', background:'#EA526F'}} title={categories[1]}/>
+                        <CategoryIcon title={categories[1]}/>
                     </div>
-                    <div className="col-sm" id='quote-box'>
-                        <div className="container">
+                    <div className="col-sm">
+                        <div className="container" id='row-quote'>
                             <div className='row'>
                                 <p>{quote}</p>
                             </div>
@@ -69,17 +69,19 @@ export default class Home extends React.Component {
                         </div>
                     </div>
                     <div className="col-sm">
-                        <CategoryIcon style={{backgroundColor: 'black', background:'#25CED1'}} title= {categories[2]}/>
+                        <CategoryIcon title= {categories[2]}/>
                     </div>
                 </div>
+
+
                 <div className="row" id = "row-three">
                     <div className="col-sm">
-                        <CategoryIcon style={{backgroundColor: 'green', background: '#FC9E4F'}}
+                        <CategoryIcon style={{ marginRight: '-7vh'}}
                                       title={categories[3]}/>
                     </div>
                     <div className="col-sm"></div>
                     <div className="col-sm">
-                        <CategoryIcon style={{background:'#2D70BC'}}
+                        <CategoryIcon style={{marginLeft: '-7vh'}}
                                       title={categories[4]}/>
                     </div>
                 </div>

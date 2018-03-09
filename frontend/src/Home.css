@@ -20,17 +20,13 @@
 }
 
 .col-sm {
-    width: calc(100% / 3);
+    width: 20vh !important;
 }
 
-#row-one {
-    background-color: red;
+.container {
+    width: auto;
 }
 
-#row-two{
-    background-color: green;
-}
-
-#row-three {
-    background-color: yellow;
+#row-quote {
+    color:white;
 }
