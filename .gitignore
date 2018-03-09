@@ -1,1 +1,5 @@
 .ipynb-checkpoints
+.idea/
+*/.idea/
+venv/
+*/venv/
