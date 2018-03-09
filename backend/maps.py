@@ -40,12 +40,12 @@ def create_map(jdata, center_coords):
 
     cluster.add_to(working_map)
     display(working_map)
-    working_map.save(outfile="map.html")
+    working_map.save(outfile="../templates/map.html")
 
 
-@app.route("/")
-def index():
-    return render_template("index.html")
+#@app.route("/")
+#def index():
+#    return render_template("index.html")
 
 
 @app.errorhandler(500)
