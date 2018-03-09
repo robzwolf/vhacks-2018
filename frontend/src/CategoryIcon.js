@@ -9,7 +9,7 @@ export default class CategoryIcon extends React.Component {
 
     render() {
         return(
-            <div className='circle'>
+            <div style={this.props.style} className='circle'>
                 <p> {this.props.title} </p>
             </div>
         )
