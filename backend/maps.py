@@ -73,6 +73,7 @@ def create_map(jdata, center_coords):
             icon=folium.Icon(color='green', icon='ok-sign'),
         ).add_to(cluster)
 
+    cluster.add_to(working_map)
     display(working_map)
     working_map.save(outfile="map.html")
 
