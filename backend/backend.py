@@ -5,7 +5,7 @@ import models
 import os
 import sqlite3
 
-app = Flask(__name__, template_folder='../templates')
+app = Flask(__name__, template_folder='../templates', static_folder='')
 CORS(app)
 
 ### Database config ###
@@ -43,7 +43,7 @@ def get_review(id):
 
 @app.route("/anisha")
 def anisha():
-    return 'foo'
+    return app.send_static_file("yelp_businesses.json")
 
 if __name__ == '__main__':
     app.run(debug=True)
