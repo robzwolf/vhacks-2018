@@ -4,6 +4,11 @@
     background-size: cover;
 }
 
+#additional-cats {
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
 #quote-box {
     display: flex;
     justify-content: center;
@@ -49,21 +54,31 @@
     margin-top: 4vh !important;
 }
 
+#author-paragraph {
+    display: flex;
+    justify-content: center;
+}
+
 #row-quote {
     color:white;
     text-transform: uppercase;
     font-weight: lighter;
     font-size: 3.3vh;
+    text-align: center;
 }
 
+#p-quote {
+    margin-top: 12vh;
+   }
+
 #category-form {
-    width: fit-content;
+    width: 20vw;
     margin-left: auto;
+    margin-top: 10px;
     margin-right: auto;
-    padding: 20px !important;
+    padding: 10px !important;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 10vh;
 }

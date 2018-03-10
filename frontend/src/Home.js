@@ -7,13 +7,13 @@ const CategorySelector = (props) => {
     const cats = props.categories;
     return (
         <div className="card card-body" id = "category-form">
-            <h4 className="card-title">Additional Categories</h4>
+            <p id="additional-cats" className="card-title">Additional Categories</p>
             <div className='row'>
                 {cats.map((cat, i) =>
                     <div className="col-sm" key={i}>
                     <div className="form-check">
                         <input onChange={() => props.onChange(cat, i - 1)} type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-                        <label className="form-check-label" for="exampleCheck1"> {cat} </label>
+                        <label id="additional-cats" className="form-check-label" for="exampleCheck1"> {cat} </label>
                     </div>
                 </div>)}
             </div>
@@ -84,9 +84,9 @@ export default class Home extends React.Component {
                     <div className="col-sm">
                         <div className="container" id='row-quote'>
                             <div className='row'>
-                                <p>{quote}</p>
+                                <p id = "p-quote">{quote}</p>
                             </div>
-                            <div className='row'>
+                            <div className='row' id = "author-paragraph">
                                 <p>{author}</p>
                             </div>
                         </div>
