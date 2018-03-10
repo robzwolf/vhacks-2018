@@ -5,14 +5,14 @@ import './Home.css'
 const CategorySelector = (props) => {
     const cats = props.categories;
     return (
-        <div class="card card-body">
-            <h4 class="card-title">Additional Categories</h4>
+        <div className="card card-body" id = "category-form">
+            <h4 className="card-title">Additional Categories</h4>
             <div className='row'>
                 {cats.map((cat, i) =>
-                    <div class="col-sm" key={i}>
-                    <div class="form-check">
+                    <div className="col-sm" key={i}>
+                    <div className="form-check">
                         <input onChange={() => props.onChange(cat, i - 1)} type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-                        <label class="form-check-label" for="exampleCheck1"> {cat} </label>
+                        <label className="form-check-label" for="exampleCheck1"> {cat} </label>
                     </div>
                 </div>)}
             </div>
@@ -29,6 +29,10 @@ export default class Home extends React.Component {
             addCategories: ['Housing', 'Loans', 'Taxes']
         }
         this.updateCategories = this.updateCategories.bind(this);
+    }
+
+    componentDidMount() {
+        //TODO: populate state with db categories
     }
 
     updateCategories(category, index) {
