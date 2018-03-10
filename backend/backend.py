@@ -12,7 +12,7 @@ CORS(app)
 DB = './reviews.db'
 
 @app.route("/")
-def index(): 
+def index():
     return render_template("map.html")
 
 def get_db():
@@ -44,6 +44,10 @@ def get_review(id):
 @app.route("/anisha")
 def anisha():
     return app.send_static_file("yelp_businesses.json")
+
+@app.route("/hands.jpg")
+def hands():
+    return app.send_static_file("hands.jpg")
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -1,6 +1,7 @@
 #hp-container {
     width: 100%;
-    background-image: url("http://media.cleveland.com/business_impact/photo/teamwork-coworkers-hands-huddle-istock-000014186302smalljpg-ba86edeb9a11a4b2.jpg");
+    /*background-image: url("http://media.cleveland.com/business_impact/photo/teamwork-coworkers-hands-huddle-istock-000014186302smalljpg-ba86edeb9a11a4b2.jpg");*/
+    background-image: url("http://localhost:5000/hands.jpg");
     background-size: cover;
 }
 
