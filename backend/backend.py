@@ -1,6 +1,5 @@
-from config import Config
-from flask import Flask, render_template, g
-from flask_sqlalchemy import SQLAlchemy
+from flask import Flask, render_template, request, g
+import models
 import os
 import sqlite3
 
@@ -24,6 +23,20 @@ def close_connection(exception):
     db = getattr(g, '_database', None)
     if db is not None:
         db.close()
+
+@app.route('/insert_review', methods=['GET', 'POST'])
+def insert_review():
+    review = request.form['review']
+    ranking = request.form['ranking']
+    latitude = request.form['latitude']
+    longitude = request.form['longitude']
+    models.insert_review(review,ranking,latitude,longitude)
+    return ("RECEIVED REQUEST WITH PARAMETERS %s %s %s %s" % (review, ranking, latitude, longitude)) # TODO handle (AJAX?) POST requests with this return body
+
+@app.route('/get_review/<id>')
+def get_review(id):
+    review = models.select_review(id)
+    return str(review)
 
 if __name__ == '__main__':
     app.run(debug=True)
