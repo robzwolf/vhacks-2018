@@ -19,3 +19,7 @@
     z-index:0;
     background-color: rgba(0,0,0,0.65);
 }
+
+#service-info {
+    padding:20px !important;
+}
