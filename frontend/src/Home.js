@@ -6,21 +6,20 @@ import axios from 'axios';
 const CategorySelector = (props) => {
     const cats = props.categories;
     return (
-        <div className="card card-body" id = "category-form">
+        <div className="card card-body" id="category-form">
             <p id="additional-cats" className="card-title">Additional Categories</p>
             <div className='row'>
                 {cats.map((cat, i) =>
                     <div className="col-sm" key={i}>
-                    <div className="form-check">
-                        <input onChange={() => props.onChange(cat, i - 1)} type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-                        <label id="additional-cats" className="form-check-label" for="exampleCheck1"> {cat} </label>
-                    </div>
-                </div>)}
+                        <div className="form-check">
+                            <input onChange={() => props.onChange(cat, i - 1)} type="checkbox" class="form-check-input"
+                                   id="exampleCheck1"></input>
+                            <label id="additional-cats" className="form-check-label" for="exampleCheck1"> {cat} </label>
+                        </div>
+                    </div>)}
             </div>
         </div>
-
     )
-
 }
 
 export default class Home extends React.Component {
@@ -75,7 +74,6 @@ export default class Home extends React.Component {
                     </div>
                     <div className="col-sm"></div>
                 </div>
-
 
                 <div className="row" id='row-two'>
                     <div className="col-sm">

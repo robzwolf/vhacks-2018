@@ -18,10 +18,10 @@ export default class ServiceInfo extends React.Component {
                 </div>
                 <div id = 'service-info'>
                     <h3> Name </h3>
-                    <p className = 'field'>Address:</p>
-                    <p className = 'field'>Phone Number:</p>
-                    <p className = 'field'>Website:</p>
-                    <p className = 'field'>Distance:</p>
+                    <p className = 'field'>Address: <strong>Via Frattina 48, 00187 Rome, Italy</strong></p>
+                    <p className = 'field'>Phone Number: <strong>+39 06 679 0695</strong></p>
+                    <p className = 'field'>Website: <strong><a href="https://www.yelp.com/biz/doctors-in-italy-roma?adjust_creative=XhLfyiDwZ4SS3zgOkHuhCA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_search=XhLfyjDwZ4SS3zgOkHuhCA:">Yelp Link</a></strong></p>
+                    <p className = 'field'>Distance: <strong>2198 m</strong></p>
                 </div>
             </div>
         )
