@@ -26,10 +26,8 @@ export default class ReviewForm extends React.Component {
         this.setState({value: event.target.value});
     }
 
-    handleSubmit(event) {
-        let val = this.state.value;
-        //TODO: API ENDPOINT
-        const url = "";
+    handleSubmit(data) {
+
     }
 
     render() {

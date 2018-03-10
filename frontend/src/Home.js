@@ -1,6 +1,7 @@
 import React from 'react';
 import CategoryIcon from './CategoryIcon';
 import './Home.css'
+import axios from 'axios';
 
 const CategorySelector = (props) => {
     const cats = props.categories;
@@ -17,6 +18,7 @@ const CategorySelector = (props) => {
                 </div>)}
             </div>
         </div>
+
     )
 
 }
@@ -29,10 +31,24 @@ export default class Home extends React.Component {
             addCategories: ['Housing', 'Loans', 'Taxes']
         }
         this.updateCategories = this.updateCategories.bind(this);
+        this.fetchReviews = this.fetchReviews.bind(this);
     }
 
     componentDidMount() {
         //TODO: populate state with db categories
+        this.fetchReviews();
+    }
+
+    fetchReviews() {
+        console.log('fetch reached')
+
+        axios.get('http://localhost:5000/anisha')
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            })
     }
 
     updateCategories(category, index) {
