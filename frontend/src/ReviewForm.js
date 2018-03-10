@@ -32,8 +32,11 @@ export default class ReviewForm extends React.Component {
 
     render() {
         return (
+            <div id = 'review-form-container'>
+            <div id = 'review-form-overlay'>
+            </div>
             <div className="card" id="review-form">
-                <div className="card-body">
+                <div className = "card-body" id="card-content">
                     <h5 className="card-title">Submit A Review</h5>
                     <p className="card-text">Share a review blah blah blah blah</p>
                     <form onSubmit={this.handleSubmit}>
@@ -43,6 +46,7 @@ export default class ReviewForm extends React.Component {
                         </div>
                     </form>
                 </div>
+            </div>
             </div>
         )
     }

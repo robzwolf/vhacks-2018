@@ -17,7 +17,7 @@
     height: 45vh;
     display: block;
     z-index:0;
-    background-color: rgba(0,0,0,0.65);
+    background-image: url("http://www.eurhonet.eu/wp-content/uploads/2014/06/social-integration.jpg");
 }
 
 #service-info {
