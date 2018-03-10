@@ -64,7 +64,10 @@ export default class Home extends React.Component {
         const author = "- Robert Ingersoll";
         const categories = this.state.mainCategories;
         return(
-            <div class="container">
+            <div id = "hp-container">
+                <div id = "homepage-overlay">
+                </div>
+            <div class="container" id="grid">
                 <div class="row" id='row-one'>
                     <div className="col-sm"></div>
                     <div className="col-sm">
@@ -108,6 +111,7 @@ export default class Home extends React.Component {
                 <div>
                     <CategorySelector onChange={this.updateCategories} categories={this.state.addCategories}/>
                 </div>
+            </div>
             </div>
         )
     }
