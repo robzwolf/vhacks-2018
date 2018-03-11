@@ -7,3 +7,4 @@ venv/
 frontend/.idea/
 backend/.idea/
 *.json
+backend/__pycache__/
